@@ -203,15 +203,35 @@ section{
     background-color: var(--prime-color);
     color: var(--white-color);
 }
+.about_img{
+    width: 50%;
+    /* height: 100%; */
+    /* object-fit: cover; */
+    position: relative;
+    border-radius: 20px;
+    
+}
 img{
     width: 100%;
-    height: 100%;
+    height: 400px;
+  
+}
+.about_small{
+    height: 200px;
+    width: 250px;
+    top: 50%;
+    right:-10px;
+    /* left: 0; */
+    position: absolute;
     object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 5px 5px 30px #0c0c0cea;
 }
 .about-img{
-    width: 50%;
-    height: 300px;
+    /* width: 50%; */
+    /* height: 300px; */
     border-radius: 20px;
+    object-fit: contain;
     /* overflow: hidden; */
     /* background-image:src("vk2.jpeg"); */
 }
@@ -219,6 +239,7 @@ img{
     width: 50%;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start; 
     align-items: flex-start;
     gap: 10px;  
 }
